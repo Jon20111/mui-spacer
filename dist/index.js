@@ -1,2 +1,4 @@
 import DrawerInsideDiv from './components/DrawerInsideDiv';
-module.exports = { DrawerInsideDiv }
+module.exports = {
+  DrawerInsideDiv
+};
