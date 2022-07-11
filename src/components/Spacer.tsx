@@ -1,11 +1,11 @@
 import {Divider, DividerProps} from '@mui/material';
 
-interface Spacer extends DividerProps {
+interface SpacerProps extends DividerProps {
   space?: string;
   component?: string;
 }
 
-export default function Spacer(props: Spacer) {
+export default function Spacer(props: SpacerProps) {
   const {space, sx, ...rest} = props;
   console.log(sx);
   const direction = rest?.orientation === 'vertical' ? 'borderRightWidth' : 'borderBottomWidth'
@@ -13,3 +13,5 @@ export default function Spacer(props: Spacer) {
     <Divider sx={{borderColor: 'transparent', ...sx, ...{[direction]: space ? space : '1px'}}} {...rest}/>
   );
 }
+
+export type { SpacerProps };

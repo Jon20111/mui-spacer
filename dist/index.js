@@ -1,4 +1,4 @@
-import DrawerInsideDiv from './components/DrawerInsideDiv';
+import Spacer from './components/Spacer';
 module.exports = {
-  DrawerInsideDiv
+  Spacer
 };
