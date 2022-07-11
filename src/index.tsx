@@ -6,7 +6,7 @@ interface SpacerProps extends DividerProps {
   component?: string;
 }
 
-const Spacer = (props: SpacerProps) => {
+export const Spacer = (props: SpacerProps) => {
   const {space, sx, ...rest} = props;
   console.log(sx);
   const direction = rest?.orientation === 'vertical' ? 'borderRightWidth' : 'borderBottomWidth'
@@ -15,5 +15,4 @@ const Spacer = (props: SpacerProps) => {
   );
 }
 
-export { Spacer };
 export type { SpacerProps };
