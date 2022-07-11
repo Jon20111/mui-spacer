@@ -1,4 +1,5 @@
 import {Divider, DividerProps} from '@mui/material';
+import React from "react";
 
 interface SpacerProps extends DividerProps {
   space?: string;
