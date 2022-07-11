@@ -1,10 +1,14 @@
 {
   "name": "@jon20111/mui-spacer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "description": "A MUI Spacer component for adding space OUTSIDE of components",
   "repository": "jon20111/mui-spacer",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
   "keywords": [
       "material-ui",
       "mui",
@@ -12,7 +16,7 @@
       "divider"
   ],
   "scripts": {
-      "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+      "build": "tsc"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
