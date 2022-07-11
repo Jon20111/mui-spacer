@@ -24,7 +24,7 @@ npm install @jon20111/mui-spacer
 
 Import the Spacer:
 ```js
-import { Spacer } from '@jon20111/mui-spacer'
+import Spacer from '@jon20111/mui-spacer'
 ```
 Props:
 It can receive all Divider props, as well as a 'space' prop.
